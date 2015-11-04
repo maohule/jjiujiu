@@ -4,7 +4,7 @@ public class rili {
 	public static void main(String[] args){
 		int sum=0;
 		int days=0;
-		for(int i=1900;i<=2015;i++){
+		for(int i=1;i<=2015;i++){
 			if(i%4==0&&i%100!=0||i%400==0){
 				sum=sum+366;
 			}
